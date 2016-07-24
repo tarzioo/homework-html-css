@@ -1,0 +1,23 @@
+/* Your CSS goes here */
+input, textarea {
+    background-color: yellow;
+}
+
+/* I added an id to my lastname in my html page. I wasn't sure if there was
+and easier way to modify lastname without an id. I tried
+
+input, lastname {
+    font-weight:bold;
+}
+
+
+but it changed all my input fields to bold.
+*/
+
+#lastname {
+    font-weight: bold;
+}
+
+p {
+    border-style: solid;
+}
